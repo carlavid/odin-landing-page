@@ -121,6 +121,55 @@ h2, .secondary-text {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    padding-top: 20px; 
+}
+
+.fourth-section {
+    background-color: #d8eaec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 50%;
     padding-top: 20px;
-    
+    padding-bottom: 20px;
+    background-color: #1F2937;
+    border-radius: 10px;
+}
+
+.left {
+    color: #E5E7EB;
+}
+
+.bigger {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.smaller {
+    font-weight: lighter;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.second-button {
+    width: 90px;
+    height: 20px;
+    background-color: #3882f6;;
+    border: 3px solid #E5E7EB;
+    color: #E5E7EB;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px;
 }
