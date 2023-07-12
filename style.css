@@ -79,6 +79,7 @@ h2, .secondary-text {
 }
 
 .random-title {
+    color: #1F2937;
     text-align: center;
     font-weight: bold;
     font-size: 36px;
@@ -89,7 +90,8 @@ h2, .secondary-text {
 .caption {
     text-align: center;
     font-size: 18px;
-    color: rgb(53, 50, 50);
+    color: rgb(77, 73, 73);
+    font-weight: bold;
     margin-top: 8px;
 }
 
@@ -99,14 +101,15 @@ h2, .secondary-text {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quote {
     max-width: 60%;
     display: flex;
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
     color: #1F2937;
 }
