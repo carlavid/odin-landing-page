@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.first-section {
+    background-color: #1F2937;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9faf8;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2, .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    max-width: 90px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.header, .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links {
+    gap: 30px;
+}
+
+.hero-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    padding-bottom: 50px;
+}
+
+.hero-main {
+    max-width: 400px;
+}
+
+
+
