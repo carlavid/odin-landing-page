@@ -58,7 +58,7 @@ h2, .secondary-text {
 }
 
 .second-section {
-    background-color: lightblue;
+    background-color: #d8eaec;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,4 +91,33 @@ h2, .secondary-text {
     font-size: 18px;
     color: rgb(53, 50, 50);
     margin-top: 8px;
+}
+
+.third-section {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    max-width: 60%;
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-source {
+    width: 60%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 20px;
+    
 }
