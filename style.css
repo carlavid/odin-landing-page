@@ -57,5 +57,38 @@ h2, .secondary-text {
     max-width: 400px;
 }
 
+.second-section {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
 
+.image-content {
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.image-row {
+    border: 3px solid rgb(19, 190, 203);
+    border-radius: 10px;
+}
+
+.random-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(53, 50, 50);
+    margin-top: 8px;
+}
